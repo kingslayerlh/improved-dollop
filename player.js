@@ -14,9 +14,6 @@ game.resources = {
         label: "Animal Meat",
         currentCount : 0
     },
-    humanmeat : {
-        label: "Human Meat",
-        currentCount : 0
     },
     cows : {
         label: "Cows",
