@@ -6,77 +6,75 @@ var game = {};
 //END TODO
 game.baseInterval = 1000;
 game.resources = {
-    electricty : {
+    electricty: {
         label: "Electricty",
-        currentCount : 0
+       currentCount: 0
     },
-    animalmeat : {
+    animalmeat: {
         label: "Animal Meat",
-        currentCount : 0
+        currentCount: 0
     },
-    },
-    cows : {
+    cows: {
         label: "Cows",
-        currentCount : 0
+        currentCount: 0
     },
-    zombies : {
+    zombies: {
         label: "Zombies",
-        currentCount : 0
+        currentCount: 0
     },
-    people : {
+    people: {
         label: "People",
-        currentCount : 0
+        currentCount: 0
     },
-    generator : {
+    generator: {
         label: "Generator",
-        currentCount : 0
+        currentCount: 0
     },
-    wood : {
+    wood: {
         label: "Wood",
-        currentCount : 0
-    },
-
+        currentCount: 0
+    }
 }
 
 game.facilities = {
-    tent : {
-        Cost : {
-            wood : 10
+    tent: {
+        cost: {
+            wood: 10
         },
-        currentCount : 0
+        currentCount: 0
     },
-    shed : {
-        Cost : {
-            wood : 100,
-            stone : 10
+    shed: {
+        cost: {
+            wood: 100,
+            stone: 10
         },
-        currentCount : 0
+        currentCount: 0
     },
-    smallhouse : {
-        Cost : {
-            wood : 1000,
-            stone : 100,
-            metal : 10
+    smallhouse: {
+        cost: {
+            wood: 1000,
+            stone: 100,
+            metal: 10
         },
-        currentCount : 0
+        currentCount: 0
     },
-    largehouse : {
-        Cost : {
-            wood : 10000,
-            stone : 1000,
-            metal : 100,
-            brick : 10,
-            currentCount : 0
+    largehouse: {
+        cost: {
+            wood: 10000,
+            stone: 1000,
+            metal: 100,
+            brick: 10,
+            currentCount: 0
         }
     },
-    mansion : {
-        Cost : {
-            wood : 100000,
-            stone : 10000,
-            metal : 1000,
-            brick : 100,
-            marble : 10,
-            currentCount : 0
+    mansion: {
+        cost: {
+            wood: 100000,
+            stone: 10000,
+            metal: 1000,
+            brick: 100,
+            marble: 10,
+            currentCount: 0
         }
     },
 }
